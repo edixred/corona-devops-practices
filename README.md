@@ -1,7 +1,5 @@
 # Guía de Buenas Prácticas para Desarrollo de Software
 
-![soho](./assets/img/logo5.png)
-
 Versión: 0.1
 
 ## Objetivo

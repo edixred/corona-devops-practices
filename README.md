@@ -10,7 +10,7 @@ El documento guía contiende un conjunto de buenas prácticas y procedimientos d
 
 1. Ambientes
 	* [Ambientes](./enviroments/ENVIRONMENTS.md)
-	* [Flujo despliegue y liberaciones](./enviroments/GITFLOW.md)
+	* [Flujos despliegue y liberaciones](./enviroments/GITFLOW.md)
 2. Lineamientos para el versionamiento de código
 	* [Manejo de ramas](./versioning/BRANCHES.md)
 	* [Nombramiento de versiones](./versioning/VERSIONING.md)
@@ -20,5 +20,5 @@ El documento guía contiende un conjunto de buenas prácticas y procedimientos d
 	* [Cómo crear un Pull Request (PR)](https://www.youtube.com/watch?v=ZlPHGsojfaI)
 	* [~~Sobre la documentación de proyectos~~](./style/DOCS.md)
 4. Lineamientos para los procesos Desarrollo de Integraciones
-    * [Integración de Servicios y API's ESB - Fuse](./integration/fuse/MAIN.md)
+    * [Integración de Servicios y API's](./integration/fuse/MAIN.md)
 5. Lineamientos CI

@@ -14,7 +14,7 @@ Los ambientes definidos para el desarrollo de aplicaciones son:
 
 La correspondencia entre ambientes y ramas es la siguiente:
 
-![Branches and environments](../assets/img/branches_envs2.PNG "Ramas y ambientes")
+![Branches and environments](../assets/img/branches_envs.PNG "Ramas y ambientes")
 
 
 

@@ -1,4 +1,4 @@
-# Guía de Buenas Prácticas para Desarrollo de Software
+# Guía de Buenas Prácticas para Desarrollo
 
 Versión: 0.1
 

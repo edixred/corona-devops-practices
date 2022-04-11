@@ -23,4 +23,4 @@ El documento guía contiende un conjunto de buenas prácticas y procedimientos d
 	* [~~Sobre la documentación de proyectos~~](./style/DOCS.md)
 4. Lineamientos para los procesos Desarrollo de Integraciones
     * [Integración de Servicios y API's](./integration/fuse/MAIN.md)
-5. Lineamientos CI
+5. Lineamientos Stack Tecnológico

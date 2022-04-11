@@ -72,8 +72,4 @@ Deprecar (desaprobar) funcionalidad existente es una parte normal del desarrollo
 ## Acerca de
 La especificación de Versionado Semántico fue creada por [Tom Preston-Werner](http://tom.preston-werner.com/), inventor de los Gravatars y co-fundador de GitHub. Esta traducción fue realizada por Agustin Feuerhake.
 
-Si quieres dar feedback, [puedes abrir un issue en GitHub](https://github.com/mojombo/semver/issues).
 
-## Licencia
-
-[Creative Commons - CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)

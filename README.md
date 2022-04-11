@@ -1,6 +1,6 @@
 # Guía de Buenas Prácticas para Desarrollo de Software
 
-![Branches and environments](./assets/img/logo5.png "logo soho")
+![soho](./assets/img/logo5.png)
 
 Versión: 0.1
 

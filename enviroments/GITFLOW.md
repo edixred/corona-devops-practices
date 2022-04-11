@@ -83,8 +83,8 @@ Cuando se presenta un error en producción y se considera que el error es bloque
   * Determinar la gravedad del issue en producción en conjunto con el líder funcional
   * Si se considera que no es crítico, bloqueante y puede esperar a un nuevo release, se crea una nueva rama de issue y se trabaja como en el paso 3 y 4.
   * Si se considera que no puede esperar a un nuevo release de la aplicación, se crea una rama hotfix a partir de master.
-  * Cuando se resuelve el error, se crea un pull request a master el cual requiere aprobación del tester del equipo y del mantainer. Para la creación de pull request revise [nuestras normas de estilo](PULL_REQUESTS.md)
-  * Se crea un nuevo release haciendo uso del [versionamiento semántico](VERSIONING.md)
+  * Cuando se resuelve el error, se crea un pull request a master el cual requiere aprobación del tester del equipo y del mantainer.
+  * Se crea un nuevo release haciendo uso del [versionamiento semántico](../versioning/VERSIONING.md)
   * El cambio debe ser mezclado al tiempo sobre la rama de develop, esta mezcla se puede realizar con merge.
   * Al finalizar se elimina la rama de hotfix
 

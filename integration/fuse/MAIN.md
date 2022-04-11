@@ -1,4 +1,4 @@
-# Lineamientos de Desarrollo ESB
+# Lineamientos de Desarrollo
 ## Objetivo
 Definir un estándar de diseño y arquitectura que acople a nivel de desarrollo buenas practicas y patrones de integración para la construcción de servicios en Camel para Jboss Fuse.
 
@@ -14,4 +14,3 @@ Definir un estándar de diseño y arquitectura que acople a nivel de desarrollo 
 1. [Procesos de CI & CD](CI_CD.md)
 _________________________________________________________________________________________________________
 
-<img src="../sources/logos.png?raw=true"/>

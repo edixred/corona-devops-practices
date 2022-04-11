@@ -1,5 +1,7 @@
 # Guía de Buenas Prácticas para Desarrollo de Software
 
+![Branches and environments](./assets/img/logo5.png "logo soho")
+
 Versión: 0.1
 
 ## Objetivo
@@ -16,8 +18,8 @@ El documento guía contiende un conjunto de buenas prácticas y procedimientos d
 	* [Nombramiento de versiones](./versioning/VERSIONING.md)
 3. Lineamientos para codificación y documentación
 	* [Recomendaciones de estilo de código](./style/STYLE_GUIDE.md)
-	* [Cómo debe ser el README](./style/ABOUT_README.md)
 	* [Cómo crear un Pull Request (PR)](https://www.youtube.com/watch?v=ZlPHGsojfaI)
+	* [Cómo debe ser el README](./style/ABOUT_README.md)
 	* [~~Sobre la documentación de proyectos~~](./style/DOCS.md)
 4. Lineamientos para los procesos Desarrollo de Integraciones
     * [Integración de Servicios y API's](./integration/fuse/MAIN.md)

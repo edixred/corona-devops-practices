@@ -5,7 +5,7 @@ Gitflow ha sido diseñado para garantizar la calidad de los productos desarrolla
 ### 1. **Creación del repositorio**
 Al crear el repositorio, la rama master debe albergar el código suficiente (código base) que permita a todos los desarrolladores poder trabajar sin depender unos de otros.
 la nomenclatura correcta es la siguiente
-__< cliente- >  +  < area- > + < iniciales-nombre-proyecto >  +  < -descricpcion-aplicacion > + < -backend o frontend >__
+`<cliente>-<area>-<iniciales-nombre-proyecto>-<descripcion-aplicacion>-<back/front>`
 * Backend
   ```
   ejm: 
@@ -50,21 +50,21 @@ Las pruebas del sistema nivel 1 son las pruebas que aplica el equipo de QA al de
   * Si el tester aprueba el pull request que proviene de una rama feature, esta rama debe ser eliminada, de lo contrario se debe trabajar en las incidencias reportadas en la rama hasta que se cuente con la aprobación.
 
 ### 6. **Pruebas de aceptación, carga, y seguridad**
-![Staging branch](../assets/img/staging_branch.PNG "Mezclando a staging")
+![release branch](../assets/img/release_branch.PNG "Mezclando a release")
 Las pruebas de aceptación son realizadas por el usuario que ha solicitado el sistema para probar que la aplicación cumple con lo deseado previo al despliegue en productivo. Las pruebas de carga y seguridad, son pruebas técnicas realizadas para validar que el sistema cumple con los atributos de calidad que se esperan, tales como desempeño y seguridad. Para ello se realizan los siguientes pasos:
-  * El desarrollador genera un tag sobre la rama staging nombrándola con la fecha de las pruebas.
-  * El tester comunica al equipo de despliegue (deployer) el despliegue del código en la rama de staging sobre el servidor pre-productivo
+  * El desarrollador genera un tag sobre la rama release nombrándola con la fecha de las pruebas.
+  * El tester comunica al equipo de despliegue (deployer) el despliegue del código en la rama de release sobre el servidor pre-productivo
   * El tester comunica a las áreas que el desarrollo puede ser sometido a pruebas de aceptación, carga o seguridad sobre el ambiente pre-productivo a las áreas correspondientes.
   * Posterior a las pruebas se comunica los escenarios de calidad y pruebas que aprobaron o no
-  * Si el desarrollo ha sido finalizado completamente y las pruebas son satisfactorias, el tester o desarrollador crean un pull request a master solicitando la aprobación del mantainer y la revisión del equipo de desarrollo. Para la creación de pull request revise [nuestras normas de estilo](../style/PULL_REQUESTS.md)
+  * Si el desarrollo ha sido finalizado completamente y las pruebas son satisfactorias, el tester o desarrollador crean un pull request a master solicitando la aprobación del mantainer y la revisión del equipo de desarrollo.
 
 ### 7. **Despliegue en producción**
 ![Master branch](../assets/img/master_branch.PNG "Mezclando a master")
 Al cumplir con todas las pruebas el código es aprobado para ser mezclado en master generando una nueva versión de la aplicación. **Nota:** toda mezcla de código en master debe generar una nueva versión de la aplicación. Los pasos a seguir son:
   * El pull request es aprobado y mezclado a master
-  * El mantainer crea un release de código siguiendo el [versionamiento semántico](VERSIONING.md)
+  * El mantainer crea un release de código siguiendo el [versionamiento semántico](../versioning/VERSIONING.md)
   * Se comunica al equipo de desarrollo que ha sido creada una nueva versión de la aplicación
-  * Se asegura que staging y master han quedado igualadas
+  * Se asegura que release y master han quedado igualadas
   * Se organiza con el equipo de despliegue (deployers) los pasos para la puesta en producción
   * El equipo de despliegue despliega la nueva versión en producción
   * Se inicia un nuevo desarrollo

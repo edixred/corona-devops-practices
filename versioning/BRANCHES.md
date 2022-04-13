@@ -120,7 +120,7 @@ Los lineamientos de estilo son los siguientes:
     * :penguin: `:penguin:` cuando arregle algo específico de Linux/Android
     * :apple: `:apple:` cuando arregle algo específico para macOS/iOS
     * :checkered_flag: `:checkered_flag:` cuando arregle algo específico para Windows
-    * :bug: `:bug:` cuandoa arregle un bug
+    * :bug: `:bug:` cuando arregle un bug
     * :fire: `:fire:` cuando elimine código o archivos
     * :green_heart: `:green_heart:` cuando arregle el archivo de CI
     * :white_check_mark: `:white_check_mark:` cuando agregue tests

@@ -1,5 +1,5 @@
 # Guía de Buenas Prácticas para Desarrollo
-![soho](./assets/img/logo5.png)
+![soho](./doc/assets/img/logo5.png)
 
 Versión: 0.1
 

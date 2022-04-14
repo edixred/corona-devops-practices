@@ -72,9 +72,9 @@
 			</activation>
 			<properties>
 				<sonar.host.url>
-				http://20.127.50.232/
+				http://localhost/
 				</sonar.host.url>
-				<sonar.login>1dbed38222f753f2b94b7bd287f4d9bd0d81e66e</sonar.login>
+				<sonar.login>aaaaaaaaaaaaaaasssssssssssss</sonar.login>
 			</properties>
 		</profile>
 	</profiles>

@@ -17,7 +17,8 @@
 	<properties>
 		<java.version>11</java.version>
 		<sonar.coverage.exclusions> 
-			**/dto/**/*, **/entity/**/*,
+			**/dto/**/*,
+			**/entity/**/*,
 			**/repository/**/*,
 			**/ex/**/*,
 			**/CoronaFinancieroNmdaAdmisionApplication.java

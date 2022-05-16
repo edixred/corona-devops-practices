@@ -16,9 +16,30 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<sonar.coverage.exclusions> 
-			**/api/**/*
+		<sonar.scm.provider>git</sonar.scm.provider>
+		<sonar.exclusions>
+		    **/test/**/*,
+		    **/dto/**/*,
+		    **/entity/**/*,
+		    **/repository/**/*,
+		    src/main/java/corona/financiero/nmda/admision/CoronaFinancieroNmdaAdmisionApplication.java
+		</sonar.exclusions>
+		<sonar.coverage.exclusions>
+		    **/test/**/*,
+		    **/dto/**/*,
+		    **/entity/**/*,
+		    **/repository/**/*,
+		    src/main/java/corona/financiero/nmda/admision/CoronaFinancieroNmdaAdmisionApplication.java
 		</sonar.coverage.exclusions>
+		<sonar.java.binaries>target</sonar.java.binaries>
+		<sonar.projectKey>corona-financiero-nmda-admision</sonar.projectKey>
+		<sonar.projectName>corona-financiero-nmda-admision</sonar.projectName>
+		<sonar.projectVersion>1.0</sonar.projectVersion>
+		<sonar.java.source>${java.version}</sonar.java.source>
+		<sonar.junit.reportsPath>target/surefire-reports</sonar.junit.reportsPath>
+		<sonar.language>java</sonar.language>
+		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 	</properties>
 	<dependencies>
 		<dependency>

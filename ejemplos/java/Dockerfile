@@ -1,10 +1,10 @@
 # For Java 11
 
 # For Java 11, try this
-FROM maven:3.8.5-jdk-11
+FROM adoptopenjdk/openjdk11:jre-11.0.16.1_1-alpine
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/api.jar
+ARG JAR_FILE=target/*.jar
 
 # cd /opt/app
 WORKDIR /opt/app
